@@ -20,3 +20,14 @@ pip3 install PyQt5
 
 pip3 install lxml
 
+
+download projet github
+unzip
+cd labelImg-master
+pyrcc5 -o libs/resources.py resources.qrc
+
+run l'interface graphique
+python labelImg.py
+
+
+
