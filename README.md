@@ -39,46 +39,58 @@ W -> créer une box
 ## installation du projet
 création des dosier
 téléchargment des images
+
+## label
 lancé labellmg
 box label les images
 open dir > images
 change save dir > labels
 
-
+### importé les labels dans yolo
 copier les labels (lablelmg/data/data
 dnas YOLOv8_custom/classes.txt
 
+## yolo ia installation
+```bash
 python l'envi virt YOLOv8_custom
 pip3 install ultralytics
+```
 
+```bash
 python
 import torch
 torch.__version__
 
 exit()
 
-install pytorch (cuda)
+install pytorch
+```
+ (cuda)
 https://pytorch.org/get-started/locally/
 
+```bash
 pip3 install --upgrade torch torchvision --index-url https://download.pytorch.org/whl/cu130
 python 
 import torch
 torch.cuda.is_available()
+```
 false -> nvidia GTX 1650 -> CUDA toolkit : https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local
 
 exit
 
 
-## entrainement
+### entrainement
+```bash
 yolo task=detect mode=train epochs=100 data=data_custom.yaml model=yolo11s.pt imgsz=640 batch=4
+```
 attendre 10 sec par epochs, ça a durée  7 min environ
+
+## predict
 
 le model ia entrainé est dans E:\DDVS IA\Solution IA\IA video\YOLOv8_custom\runs\detect\train12\weights\best.pt
 copier le model best.pt à la racine
 copier un fichier 1.jpg à la racine
-
-
-## predict
+```bash
 yolo task=detect mode=predict model=best.pt show=True conf=0.6 source=1.jpg
-
+```
 
