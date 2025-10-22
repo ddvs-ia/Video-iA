@@ -35,3 +35,27 @@ W -> créer une box
 
 
 
+# trainning bois
+## installation du projet
+création des dosier
+téléchargment des images
+lancé labellmg
+box label les images
+open dir > images
+change save dir > labels
+
+
+copier les labels (lablelmg/data/data
+dnas YOLOv8_custom/classes.txt
+
+python l'envi virt YOLOv8_custom
+pip3 install ultralytics
+
+python
+import torch
+torch.__version__
+
+exit()
+
+
+
