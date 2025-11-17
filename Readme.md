@@ -1,3 +1,3 @@
 # Sommaire 
 ### ia vidéo python - yolo
- - [python yolo](python yolo.md)
+ - [python yolo](python_yolo.md)
