@@ -12,5 +12,13 @@ pip3 --version
 python3 -m venv venv
 source venv/bin/activate
 ```
-
-
+### pytorch
+CUDA 12.8
+```bash
+pip3 install torch torchvision
+sudo apt install graphicsmagick-imagemagick-compat
+```
+### ultralitics
+```bash
+pip install -U ultralytics
+```
