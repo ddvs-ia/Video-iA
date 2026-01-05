@@ -6,6 +6,8 @@ ouvrir un terminal
 ```bash
 #python3
 sudo apt install python3 python3-pip
+python3 -v
+pip3 --version
 ```
 ### run python
 python3 -m venv venv
