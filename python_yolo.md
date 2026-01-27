@@ -7,3 +7,14 @@ source /source/bin/activiate
 cd yolov11
 streamlit run livestream.py
 ```
+dans l'application : 
+choisir le cam
+select
+run
+
+
+stop
+
+```python
+exit
+```
