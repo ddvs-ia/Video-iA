@@ -4,10 +4,6 @@
  - [ubuntu](ubuntu.md)
 
 
-
-# projets-video-ia
-[python yolov11 ubuntu](python%20yolov11%20ubuntu.md)
-
 # Ubuntu
 ## installer et config python3
 ```bash
